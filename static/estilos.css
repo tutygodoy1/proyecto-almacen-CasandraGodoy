@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.lista-productos {
+    flex: 2;
+}
+
+.datos-producto {
+    flex: 1;
+}
+
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 6px;
+}
+
+.fila-seleccionada {
+    background-color: lightblue;
+}
+
+.datos-producto input,
+.datos-producto select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.datos-producto form {
+    max-width: 350px;
+}
+#btn-estadisticas { margin: 18px 0; padding: 8px 16px; }
+#seccion-estadisticas { margin-top: 18px; }
+#resumen-estadisticas { display: grid; grid-template-columns: repeat(2, minmax(180px, 1fr)); gap: 12px; }
+.indicador { border: 1px solid #bbb; padding: 12px; border-radius: 6px; }
+.indicador strong { display: block; margin-top: 6px; }
